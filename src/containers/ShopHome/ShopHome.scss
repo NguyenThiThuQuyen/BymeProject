@@ -4,9 +4,9 @@
     .TT_Shop{
     display: flex;
     background: #ededed;
-    padding: 1.25rem 0;
+    //padding: 1.25rem 0;
     padding: 30px 140px;
-    margin: 0 120px;
+    //margin: 0 120px;
         .background_Shop{
             // border: 1px solid red;
                 height: 134px;
@@ -166,7 +166,7 @@
             
             background: white;
             .Menu_Shop{
-                margin: 0 158px;
+                margin: 0 -140px;
                 display: flex;
                 margin-top: 10px;
                 position: -webkit-sticky;
