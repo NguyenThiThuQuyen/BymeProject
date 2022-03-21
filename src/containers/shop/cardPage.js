@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './cardPage.scss';
-
+import ShopHome from "../../containers/ShopHome/ShopHome";
 class cardPage extends Component {
 
     render() {
         return (
             <div className="main">
+                <p>Test code Sin</p>
+                <ShopHome/>
                 <div>Tôi là khánh long</div>
                 <div className="card-header">
                     <i className="fas fa-shipping-fast"></i> Nhấn vào mục Mã giảm giá ở cuối trang để hưởng miễn phí vận chuyển bạn nhé!
