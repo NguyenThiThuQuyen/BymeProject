@@ -3,10 +3,14 @@ import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './cardPage.scss';
 import ShopHome from "../../containers/ShopHome/ShopHome";
+import Header from "../Header/Header"
+import Footer from "../Footer/Footer"
 class cardPage extends Component {
 
     render() {
         return (
+            <>
+            <Header />
             <div className="main">
                 <p>Test code Sin</p>
                 <ShopHome/>
@@ -284,6 +288,8 @@ class cardPage extends Component {
                     <button className="btn">Mua Hàng</button>
                 </div>
             </div>
+            <Footer />
+        </>
         );
     }
 

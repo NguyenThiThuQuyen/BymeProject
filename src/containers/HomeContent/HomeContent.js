@@ -98,7 +98,7 @@ import './HomeContent.scss'
                     </div>
                     </Slider>
                 </div>
-                {/* <div className="container mt-5">
+                <div className="container mt-5">
                     <h3 className="text-danger">THẢ GA MUA SẮM 
                     <IconContext.Provider value={{size: "2em"}}>
                         <BsIcons.BsFillLightningChargeFill/>
@@ -110,27 +110,27 @@ import './HomeContent.scss'
                                 <img className="card-img-top"
                                     src={disc1}
                                     alt="" />
-                                <div className="card-body p-3">
+                                <div className="card-body p-3" style={{marginTop: '18px'}}>
                                     <h6 className="card-text text-center color-text">Hot sale hôm nay</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-2">
                             <div className="card">
-                                <img className="card-img-top"
+                                <img className="card-img-top" style={{marginTop: '30px'}}
                                     src={disc2}
                                     alt="" />
-                                <div className="card-body p-3">
+                                <div className="card-body p-3" style={{marginTop: '70px'}}>
                                     <h6 className="card-text text-center color-text">Freeship toàn quốc</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-2">
                             <div className="card">
-                                <img className="card-img-top"
+                                <img className="card-img-top" style={{marginTop: '45px'}}
                                     src={disc3}
                                     alt="" />
-                                <div className="card-body p-3">
+                                <div className="card-body p-3" style={{marginTop: '56px'}}>
                                     <h6 className="card-text text-center color-text">Ưu đãi đặc biệt cho thành viên</h6>
                                 </div>
                             </div>
@@ -147,26 +147,26 @@ import './HomeContent.scss'
                         </div>
                         <div className="col-2">
                             <div className="card">
-                                <img className="card-img-top"
+                                <img className="card-img-top" style={{marginTop: '20px'}}
                                     src={disc5}
                                     alt="" />
-                                <div className="card-body p-3">
+                                <div className="card-body p-3" style={{marginTop: '75px'}}>
                                     <h6 className="card-text text-center color-text">Siêu deal ưu đãi đến 30%</h6>
                                 </div>
                             </div>
                         </div>
                         <div className="col-2">
                             <div className="card">
-                                <img className="card-img-top"
+                                <img className="card-img-top" style={{marginTop: '30px'}}
                                     src={disc6}
                                     alt="" />
-                                <div className="card-body p-3">
+                                <div className="card-body p-3" style={{marginTop: '75px'}}>
                                     <h6 className="card-text text-center color-text">Coupon giảm đến 50K</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
 
             <div className="container-fluid bg-color">
