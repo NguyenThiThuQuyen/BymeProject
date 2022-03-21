@@ -8,6 +8,7 @@ class cardPage extends Component {
     render() {
         return (
             <div className="main">
+                <div>Tôi là khánh long</div>
                 <div className="card-header">
                     <i className="fas fa-shipping-fast"></i> Nhấn vào mục Mã giảm giá ở cuối trang để hưởng miễn phí vận chuyển bạn nhé!
                 </div>
