@@ -9,7 +9,6 @@ import userIcon from '../../src/assets/images/user.svg';
 import passIcon from '../../src/assets/images/pass.svg';
 import './Login.scss';
 import { FormattedMessage } from 'react-intl';
-
 import adminService from '../services/adminService';
 
 class Login extends Component {
@@ -97,61 +96,34 @@ class Login extends Component {
     }
 
     render() {
-        const { username, password, loginError } = this.state;
-        const { lang } = this.props;
-
         return (
-            <div className="login-wrapper">
-                <div className="login-container">
-                    <div className="form_login">
-                        <h2 className="title">
-                            <FormattedMessage id="login.login" />
-                        </h2>
-                        <div className="form-group icon-true">
-                            <img className="icon" src={userIcon} alt="this" />
-                            <input
-                                placeholder={LanguageUtils.getMessageByKey("login.username", lang)}
-                                id="username"
-                                name="username"
-                                type="text"
-                                className="form-control"
-                                value={username}
-                                onChange={this.onUsernameChange}
-                            />
+            <div className="container">
+            <div className="row mt-5">
+                <div className="col-4">
+    
+                </div>
+                <div className="col-4 border rounded p-4 mt-5">
+                <h1 className="text-center font mt-2">Handmade By Me</h1><br/>
+                    <div className="text-dark px-3">
+                        <div className="from-group mb-3">
+                            <label for="username" className="form-label font ">Email</label>
+                            <input type="tel" className="form-control" name="username" id="username" aria-describedby="username" />
                         </div>
-
-                        <div id="phone-input-container" className="form-group icon-true">
-                            <img className="icon" src={passIcon} alt="this" />
-                            <input
-                                placeholder={LanguageUtils.getMessageByKey("login.password", lang)}
-                                id="password"
-                                name="password"
-                                type="password"
-                                className="form-control"
-                                value={password}
-                                onChange={this.onPasswordChange}
-                            />
+                        <div className="from-group mb-3">
+                            <label for="password" className="form-label font">Mật khẩu</label>
+                            <input type="password" className="form-control" name="password" id="password" />
                         </div>
-
-                        {loginError !== '' && (
-                            <div className='login-error'>
-                                <span className='login-error-message'>{loginError}</span>
-                            </div>
-                        )}
-
-                        <div className="form-group login">
-                            <input
-                                ref={this.btnLogin}
-                                id="btnLogin"
-                                type="submit"
-                                className="btn"
-                                value={LanguageUtils.getMessageByKey("login.login", lang)}
-                                onClick={this.processLogin}
-                            />
+                        <div className="from-group form-check mb-3">
+                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                            <label className="form-check-label font" for="exampleCheck1">Ghi nhớ tôi</label>
                         </div>
+                        <button type="submit" name="btn-login" className="btn btn-outline-dark mb-5 mt-3 float-right">Login</button>
                     </div>
                 </div>
+               
             </div>
+            
+        </div>
         )
     }
 }
