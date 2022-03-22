@@ -12,7 +12,6 @@ class cardPage extends Component {
             <>
             <Header />
             <div className="main">
-                <p>Test code Sin</p>
                 <div>Tôi là khánh long</div>
                 <div className="card-header">
                     <i className="fas fa-shipping-fast"></i> Nhấn vào mục Mã giảm giá ở cuối trang để hưởng miễn phí vận chuyển bạn nhé!
